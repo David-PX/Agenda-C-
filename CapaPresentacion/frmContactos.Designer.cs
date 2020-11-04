@@ -278,7 +278,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TablaContactos);
             this.Name = "frmContactos";
-            this.Text = "Form1";
+            this.Text = "Contactos";
             this.Load += new System.EventHandler(this.frmContactos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TablaContactos)).EndInit();
             this.ResumeLayout(false);

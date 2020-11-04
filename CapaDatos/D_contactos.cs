@@ -72,10 +72,10 @@ namespace CapaDatos
 
         public void EditarContacto(E_contactos contactos)
         {
-            SqlCommand cmd = new SqlCommand("SP_EDITARCATEGORIAS", conexion);
+            SqlCommand cmd = new SqlCommand("SP_EDITARCONTACTO", conexion);
             cmd.CommandType = CommandType.StoredProcedure;
             conexion.Open();
-
+            cmd.Parameters.AddWithValue("@ID", contactos.ID);
             cmd.Parameters.AddWithValue("@NOMBRES", contactos.Nombres);
             cmd.Parameters.AddWithValue("@APELLIDOS", contactos.Apellidos);
             cmd.Parameters.AddWithValue("@CEDULA", contactos.Cedula);
@@ -89,14 +89,14 @@ namespace CapaDatos
 
         public void EliminarContactos(E_contactos contactos)
         {
-            SqlCommand cmd = new SqlCommand("SP_ELIMINARCATEGORIA", conexion);
+            SqlCommand cmd = new SqlCommand("SP_ELIMINARCONTACTO", conexion);
             cmd.CommandType = CommandType.StoredProcedure;
             conexion.Open();
-            cmd.Parameters.AddWithValue("@IDCATEGORIA", contactos.ID);
+            cmd.Parameters.AddWithValue("@ID", contactos.ID);
 
             cmd.ExecuteNonQuery();
             conexion.Close();
         }
     }
 }
-}
+

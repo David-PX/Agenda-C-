@@ -1,0 +1,2 @@
+C:\Users\David\source\repos\agenda\CapaNegocios\obj\Debug\CapaNegocios.csprojAssemblyReference.cache
+C:\Users\David\source\repos\agenda\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache

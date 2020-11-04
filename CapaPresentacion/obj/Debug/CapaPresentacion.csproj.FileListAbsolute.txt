@@ -1,0 +1,5 @@
+C:\Users\David\source\repos\agenda\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\David\source\repos\agenda\CapaPresentacion\obj\Debug\CapaPresentacion.frmContactos.resources
+C:\Users\David\source\repos\agenda\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\David\source\repos\agenda\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\David\source\repos\agenda\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
